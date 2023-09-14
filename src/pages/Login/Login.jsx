@@ -63,7 +63,7 @@ useEffect(()=> {
 },[loginSuccess])
 useEffect(()=> {
   if(loginSuccess.currentUser){
-    window.location.href = 'http://localhost:3000/';
+    window.location.href = '/';
   }
 },[navigate, loginSuccess])
   return (
